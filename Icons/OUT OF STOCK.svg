@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52" height="12" viewBox="0 0 52 12">
+  <g id="Group_151" data-name="Group 151" transform="translate(-73 -23.52)">
+    <g id="Rectangle_48" data-name="Rectangle 48" transform="translate(73 23.52)" fill="#fff" stroke="#fff" stroke-width="1">
+      <rect width="52" height="12" stroke="none"/>
+      <rect x="0.5" y="0.5" width="51" height="11" fill="none"/>
+    </g>
+    <text id="OUT_OF_STOCK" data-name="OUT OF STOCK" transform="translate(75 31.52)" font-size="6" font-family="Helvetica-Bold, Helvetica" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">OUT OF STOCK</tspan></text>
+  </g>
+</svg>

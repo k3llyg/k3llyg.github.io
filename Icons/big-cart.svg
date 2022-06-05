@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="85.896" height="75.807" viewBox="0 0 85.896 75.807">
+  <g id="Group_162" data-name="Group 162" transform="translate(0 1.5)">
+    <g id="Group_46" data-name="Group 46" transform="translate(0 0)">
+      <path id="ic_shopping_basket_24px" d="M58.678,27.984,43.093,3.582A3.485,3.485,0,0,0,40.14,2.02a3.434,3.434,0,0,0-2.953,1.6L21.6,27.984H4.558A3.652,3.652,0,0,0,1,31.7a3.265,3.265,0,0,0,.142,1L10.18,67.192a7.134,7.134,0,0,0,6.832,5.431H63.268a7.207,7.207,0,0,0,6.867-5.431l9.038-34.483.107-1a3.652,3.652,0,0,0-3.558-3.72Zm-29.213,0L40.14,11.617,50.815,27.984ZM40.14,57.743a7.447,7.447,0,1,1,7.116-7.44A7.3,7.3,0,0,1,40.14,57.743Z" transform="translate(-1 1.685)" fill="#fff"/>
+      <g id="Group_32" data-name="Group 32" transform="translate(63.235)">
+        <line id="Line_19" data-name="Line 19" y2="21.161" transform="translate(10.58)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+        <line id="Line_20" data-name="Line 20" x1="21.161" transform="translate(0 10.58)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+      </g>
+    </g>
+  </g>
+</svg>

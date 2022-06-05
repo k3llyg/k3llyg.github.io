@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17.095" height="61.025" viewBox="0 0 17.095 61.025">
+  <g id="Group_127" data-name="Group 127" transform="translate(0.5 0.5)">
+    <path id="Icon_feather-twitter" data-name="Icon feather-twitter" d="M17.595,4.492a7.974,7.974,0,0,1-2.3,1.119,3.277,3.277,0,0,0-5.75,2.195v.732A7.8,7.8,0,0,1,2.963,5.224s-2.926,6.584,3.658,9.51A8.516,8.516,0,0,1,1.5,16.2c6.584,3.658,14.632,0,14.632-8.413a3.292,3.292,0,0,0-.059-.607,5.648,5.648,0,0,0,1.522-2.685Z" transform="translate(-1.5 42.327)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="Icon_feather-facebook" data-name="Icon feather-facebook" d="M18.547,3H16.353a3.658,3.658,0,0,0-3.658,3.658V8.853H10.5v2.926h2.195v5.853h2.926V11.779h2.195l.732-2.926H15.621V6.658a.732.732,0,0,1,.732-.732h2.195Z" transform="translate(-6.476 -3)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <g id="Icon_feather-instagram" data-name="Icon feather-instagram" transform="translate(1.574 23.892)">
+      <path id="Path_24" data-name="Path 24" d="M6.539,3h7.078a3.539,3.539,0,0,1,3.539,3.539v7.078a3.539,3.539,0,0,1-3.539,3.539H6.539A3.539,3.539,0,0,1,3,13.618V6.539A3.539,3.539,0,0,1,6.539,3Z" transform="translate(-3 -3)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25" data-name="Path 25" d="M17.7,14.351a2.831,2.831,0,1,1-2.385-2.385A2.831,2.831,0,0,1,17.7,14.351Z" transform="translate(-7.787 -7.719)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_26" data-name="Path 26" d="M26.25,9.75h0" transform="translate(-15.278 -6.565)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
