@@ -112,3 +112,10 @@ function changeInput(obj){
     
 }
 setMoney("");
+
+
+
+// filter function not working
+document.getElementsByClassName("filter-btn").onclick=function (e){    
+    document.getElementByClassName("filter-wrap-color").classList.remove("filter-show");
+  }

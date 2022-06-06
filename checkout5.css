@@ -1,0 +1,167 @@
+
+.checkout{
+    background: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display:block;
+}
+
+.center{
+    box-sizing: content-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--spacing-sm);
+    padding-right: var(--spacing-sm);
+    max-width: 15%;
+}
+
+
+
+
+.checkout-wrap{
+    padding-top: 12%;
+}
+
+.checkout-layout{
+    justify-content: content-box;
+    padding-left: auto;
+    padding-right: auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr 0.1fr;
+    justify-items: center;
+}
+
+/* message */
+
+.msg-wrap{
+    padding-bottom: 10%; 
+}
+
+.message{
+    display: flex;
+    font-size: larger;
+    text-align: center;
+}
+
+.message-xl{
+    font-size: 300%;
+}
+.message-l{
+    padding-left: 8%;
+    font-size: 150%;
+    max-width: 90%;
+}
+
+
+/* btn */
+
+.back-btn{
+    width: 10em;
+    height: 3em;
+    border-radius: 2em;
+    background: transparent;
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    font-size: 100%;
+}
+
+.back-btn:hover{
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #616161;
+    text-align: center;
+}
+
+.btn-wrap-back{
+    left:10%
+}
+
+
+
+@media screen and (max-width: 1440px){
+    :root{
+        font-size: 15px;
+    }
+
+    .center{
+        padding-right: 8%;
+    }
+    
+}    
+
+@media screen and (max-width: 1024px){
+    :root{
+        font-size: 15px;
+    }
+
+    .center{
+        padding-right: 15%;
+    }
+    
+}   
+
+
+@media screen and (max-width: 768px){
+    :root{
+        font-size: 15px;
+    }
+
+    .center{
+        padding-right: 30%;
+    }
+    
+
+    .checkout-wrap{
+        padding-top: 20%;
+    }
+    .btn-wrap-cancel{
+        padding-right: 25%;
+        padding-top: 50%;
+    }
+    .checkout-layout{
+        grid-template-rows: 1fr 2fr 1fr;
+    }
+}    
+
+
+@media screen and (max-width: 600px){
+    :root{
+        font-size: 15px;
+    }
+
+    .center{
+        padding-right: 42%;
+        font-size: 90%;
+    }
+}    
+
+
+
+
+@media screen and (max-width: 425px){
+    :root{
+        font-size: 15px;
+    }
+
+    .center{
+        padding-right: 45%;
+        font-size: 80%;
+    }
+
+
+    
+
+}    
+
+
+@media screen and (max-width: 320px){
+    :root{
+        font-size: 15px;
+    }
+
+    .center{
+        padding-right: 55%;
+        font-size: 70%;
+    }
+    
+
+}    

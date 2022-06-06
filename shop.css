@@ -1,0 +1,262 @@
+/* heading */
+.heading-wrap{
+    display: flex;
+    flex-direction: column;
+}
+.page-description{
+    padding-top: 1%;
+}
+
+.center{
+    box-sizing: content-box;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 0%;
+}
+
+
+
+/* product-list */
+.item-list-wrap{
+    padding-top: 3%;
+    padding-left: 18%;
+    padding-right: 18%;
+}
+
+.item-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 10%;
+    row-gap: 2%;
+}
+
+
+
+/* hide filter - js not working*/
+.filter-show{
+    display: none;
+}
+
+
+/* filter btn */
+.btn-wrap{
+    padding-bottom: 5%;
+}
+
+.filter-btn{
+    width:7em;
+    height: 3em;
+    border-radius: 0.8em;
+    background: transparent;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 100%;
+}
+
+.filter-btn:hover{
+    opacity: 50%;
+    background-color: #d5d5d5;
+    border: none;
+}
+
+/* filter */
+.filter-wrap-color{
+    background-color: black;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    border-radius: 0em 0em 1em 1em;
+    z-index: 1000;
+}
+
+.filter-wrap{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.filter-wrap div:nth-child(5){
+    grid-column-start: 4;
+    grid-row-start: 2;
+}
+
+
+.filter-choice-wrap{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 5%;
+}
+
+.genre-btn-wrap{
+    display: inline-flex;
+    column-gap: 3%;
+}
+
+.genre-btn{
+    width:7em;
+    height: 3em;
+    border-radius: 0.8em;
+    background: transparent;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 100%;
+}
+
+
+.genre-btn:hover{
+    background-color: #616161;
+}
+
+.genre-btn-long:hover{
+    background-color: #616161;
+}
+
+
+
+.genre-btn-long{
+    width:10em;
+    height: 3em;
+    border-radius: 0.8em;
+    background: transparent;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 100%;
+}
+
+.genre-btn-arrow{
+    width:3.2em;
+    height: 3em;
+    border-radius: 0.8em;
+    background: transparent;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 100%;
+}
+
+
+
+/* pagnation */
+
+.pagnation{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 10%;
+}
+
+.pagnation-wrap{
+    padding-left: 15%;
+    padding-right: 30%;
+    padding-bottom: 10%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.pagnation-wrap div:nth-child(1){
+    grid-column-start: 2;
+}
+
+.page-btn{
+    width: 1.6em;
+    height: 1.6em;
+    border-radius: 0.4em;
+    background: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 100%;
+}
+
+.page-btn:hover{
+    opacity: 50%;
+    background-color: #d5d5d5;
+    border: none;
+}
+
+
+.page-btn-input{
+    width: 7em;
+    height: 1.6em;
+    border-radius: 0.4em;
+    background: transparent;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 100%;
+    text-align: center;
+}
+
+.page-btn-input {
+    color:white;
+    font-weight: 600;
+    padding-left: 4%;
+}
+
+::placeholder{
+    color: white;
+    font-style: italic;
+    font-size: smaller;
+    opacity: 50%;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+  }
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+  }
+
+
+
+  @media screen and (max-width: 900px){
+    :root{
+        font-size: 15px;
+    }
+
+    .filter-choice-wrap{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        row-gap: 5%;
+    }
+  }
+
+@media screen and (max-width: 768px){
+    :root{
+        font-size: 11px;
+    }
+
+
+    .item-list{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        column-gap: 10%;
+        row-gap: 2%;
+        padding-bottom: 100%;
+    }
+
+    .last-card{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 425px){
+    :root{
+        font-size: 11px;
+    }
+
+    .item-list{
+        padding-bottom: 120%;
+    }
+}
+
+
+
+/* text */
+.btn-text-adjust{
+    font-weight: 600;
+    text-transform: uppercase;
+}

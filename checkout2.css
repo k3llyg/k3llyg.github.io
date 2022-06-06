@@ -77,15 +77,9 @@
     font-style: italic;
 }
 
-/* .form-input-short{
-    width:80%;
-    height: 3em;
-} */
-
 .form-input{
     width: 110%;
     height: 3em;
-    text-align: center;
 }
 
 /* btns */
@@ -302,6 +296,12 @@
 	z-index: -1;
 }
 
+
+#close-cart {
+    position: absolute;
+    top: 3%;
+    right: 4%;
+}
 
 
 .cart-wrap-layout{
