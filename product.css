@@ -13,32 +13,27 @@
 
 
 .column {
-    padding: 5%;
+    padding: 20%;
     display: flex;
-    /* grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    row-gap: 10%; */
-  
+    flex-direction: column;
     box-sizing: border-box;
     justify-content: center;
-    display: grid;
     position: static;
   }
 
+  .product-card-main{
+      padding-bottom: 30%;
+  }
 
-/* .column {
-    padding: 5%;
-    padding-top: 8%;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    row-gap: 6%;
-  
-    box-sizing: border-box;
-    justify-content: center;
-    display: grid;
-    position: static;
-  } */
-  
+
+  /* description */
+
+  .product-description-wrap{
+    padding-bottom: 20%;
+    padding-left: 5%;
+    padding-right: 7%;
+  }
+   
 
 .subheading{
     box-sizing: content-box;
@@ -53,13 +48,12 @@
     padding-left: 5%;
 }
 
+
 .product-card-main{
     display: grid;
     grid-template-rows: 0.05fr 1fr 0.1fr 0.05fr;
     grid-template-columns: 1fr; 
     font-size: 350%;
-    /* padding-left: 5%;
-    padding-right: 5%; */
 }
 
 
@@ -72,7 +66,7 @@
     display: grid; 
     grid-auto-columns: 1fr; 
     grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 1fr 1fr; 
+    grid-template-rows: 1fr; 
     gap: 1em 1.5em; 
 }
 
@@ -85,7 +79,7 @@
 
 
   /* CD + LP */
-.tag-wrap {
+.tag-wrap{
     display: grid; 
     grid-template-columns: repeat(10,1fr);
     grid-template-rows: 1fr; 
@@ -95,13 +89,12 @@
     padding-bottom: 0.3em; 
     position: static;
     align-content: center;
-
 }
 
-.format{
+/* .format{
     padding-top: 0.5em;
     padding-bottom: 0.3em;
-}
+} */
 
 .artist-album-wrap{
     display: grid;
@@ -110,7 +103,7 @@
     padding: 1%;
 }
 
-.album-description{
+.album-description-product{
     display: flex;
     justify-content: space-between;
     padding-bottom: 5%;
@@ -137,7 +130,7 @@
 
 
   /* CD + LP */
-.tag-wrap {
+.tag-wrap-main {
     display: grid; 
     grid-template-columns: 1fr 1fr 2fr;
     column-gap: 8%;
@@ -149,20 +142,28 @@
 }
 
 .format-main{
-    padding-top: 0.5em;
-    padding-bottom: 0.3em;
-    width: 100%;
+    padding-top: 0.1em;
+    width: 80%;
 }
 
 .price-cart-wishlist{
     display: grid;
     grid-template-columns: 3fr 1fr; 
+    column-gap: 1%;
+    max-width: 10em;
+    padding-top: 10%;
 }
 
-.price{
+.pad-right{
+    display: grid;
     padding-top: 10%;
+}
+
+
+.price-main{
+    padding-top: 5%;
     padding-left: 12%;
-    
+    font-weight: bolder;
 }
 
 .wishlist{
@@ -180,6 +181,7 @@
 .genre-wrap{
     box-sizing: border-box;
     display: block;
+    padding-bottom:25%;
 }
 
 .genre{
@@ -199,39 +201,104 @@
 }
 
 /* tracklist */
-.tracklist{
+
+.subheading-track{
+    box-sizing: content-box;
+    margin-left: 5%;
+    margin-right: auto;
+    padding-bottom: 1em;
+    font-size: 200%;
+}
+
+.tracklist-wrap{
     display: grid;
     grid-template-columns: repeat(1,2fr);
     grid-gap: 1rem 0.5rem;
 }
 
+.tracklist{
+    display: inline-flex;
+    flex-wrap: nowrap;
+    flex: 1 2 auto;
+    flex-direction: column;
+    max-width:15em;
+    padding-left: 6%;
+}
+
 .song-item{
-    /* display:inline-flex;
-    justify-content: space-between; */
+    display:inline-flex;
+    justify-content: space-between;
+    padding-bottom: 3%;
 }
 
 .song-item-text{
-    font-size: 150%;
+    font-size: 85%;
+    letter-spacing:6px;
 }
+
+.play-btn{
+    flex-basis: 15%;
+}
+
+.song-title{
+    flex-basis: 70%;
+}
+
 
 
 /* decoraction */
 .page-split{
-    display: flex;
+    display: fixed;
+    z-index: 90;
 }
 
 
 .vertical-line{
-    
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    z-index: 10;
+    width: 1px;
+    height: 80%;
+    background-color: #fff;
+    justify-content: center;
 }
 
+/* .disc{
+    width: 5em;
+    height:auto;
+    padding-top: 70em;
+    padding-right: 2em;
+} */
 
+
+
+/* desktop */
+@media screen and (min-width: 1024px){
+    :root{
+        font-size: 15px;
+    }
+
+    .tracklist{
+        max-width: 20em;
+    }
+
+
+}
 
 
 
 @media screen and (max-width: 768px){
     :root{
-        font-size: 15px;
+        font-size: 10px;
+    }
+
+
+    .vertical-line{
+        display: none;
+    }
+    .disc{
+        display: none;
     }
 
 
@@ -253,26 +320,75 @@
     }
 
 
-
-}
-
-
-
-/* ipad */
-@media screen and (max-width: 1440px){
-    :root{
-        font-size: 15px;
+    .recommendations{
+        padding-top: 10%;
     }
 
 
-    
-    /* .column {
-        padding: 50%;
+
+    .price-cart-wishlist{
+        display: flex;
+        flex-wrap: nowrap;
+        /* flex-direction: column; */
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows: 1fr 1fr; 
         padding-top: 10%;
-        display: grid;
-        grid-template-rows: 1fr 1fr;
-        row-gap: 6%;
-      }
-       */
+    }
+
+
+    .price-main{
+        padding-left: 4%;
+    }
+
+    .small-play{
+        height: 0.5em;
+        width: 0.5em;
+    }
+
+    .small{
+        height: 1em;
+        width: 1em;
+    }
+
+    .wishlist{
+        padding-bottom: 2%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .tracklist{
+        max-width:15em;
+    }
+    
+    .song-item{
+        display:inline-flex;
+        justify-content: space-between;
+        padding-bottom: 3%;
+    }
+    
+    .song-item-text{
+        font-size: 85%;
+        letter-spacing:1px;
+        padding-top: 2.5%;
+    }
+    
+    .play-btn{
+        flex-basis: 15%;
+    }
+    
+    .song-title{
+        flex-basis: 70%;
+    }
+
 
 }
+
+

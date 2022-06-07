@@ -9,7 +9,6 @@ document.getElementById("close-nav").onclick=function (e){
 }
 
 // search
-
 document.getElementById("search-btn").onclick=function (e){    
   if(document.body.offsetWidth>768){
       return false;
@@ -35,7 +34,7 @@ document.getElementById("close-cart").onclick=function (e){
 
 
 
-//empty cart
+//empty cart: not working
 document.getElementsByClassName("remove-goods")[0].onclick=function (){
   document.getElementById("cart-info").style="display:none;";
   document.getElementsByClassName("cart-empty")[0].style="display:grid;";
@@ -43,26 +42,10 @@ document.getElementsByClassName("remove-goods")[0].onclick=function (){
 
 
 
-// delivery
-var radio=document.getElementById("delivery-radio").querySelectorAll("p");
-for(var i=0;i<radio.length;i++){
-    radio[i].addEventListener("click", function(e){
-        for(var ii=0;ii<radio.length;ii++){
-            radio[ii].children[0].classList.remove("acitve")
-        }
-        if(e.target.classList[0]=="radio"){
-            e.target.classList.add('acitve');
-        }
-        if(e.target.children[0]){
-            console.log(e.target.children[0].classList.add('acitve'));
-        }
-    });
-}
 
 
 
-
-//cart calculation
+//cart calculation: not working
 function getNum(){
     return document.getElementById("quantity-num").value;
 }
@@ -118,4 +101,9 @@ setMoney("");
 // filter function not working
 document.getElementsByClassName("filter-btn").onclick=function (e){    
     document.getElementByClassName("filter-wrap-color").classList.remove("filter-show");
+  }
+
+document.getElementsByClassName("filter-btn")[0].onclick=function (){
+    document.getElementById("filter-wrap-color").style="display:block;";
+    document.getElementsByClassName("filter-show")[0].style="display:block;";
   }
