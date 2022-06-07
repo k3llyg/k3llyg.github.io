@@ -190,6 +190,7 @@
 }
 
 .genre-items{
+    font-style: italic;
     font-size: 150%;
     width: auto;
     height: 100%;

@@ -39,7 +39,7 @@ button, input[type="submit"], input[type="reset"] {
 .shop{
     background: linear-gradient(#B1C1A7, #c1bea7, #FF8900);
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     display:block;
 }
 
@@ -409,6 +409,7 @@ a {
 
 .artist{
     font-style: italic;
+    font-size: 50%;
 }
 
 .page-heading{
@@ -600,7 +601,7 @@ a {
 	position: fixed;
 
     animation-name: slide;
-    animation-duration: 1.3s;
+    animation-duration: 1.5s;
 }
 
 
@@ -816,7 +817,7 @@ a {
 /* cart-buttons */
 .btn-wrap{
     padding-top: 10%;
-    padding-right: 20%;
+    padding-right: 10%;
 }
 
 
