@@ -1,3 +1,4 @@
+/* gallery + about us */
 #gallery{
     background-color: rgb(0, 0, 0);
     height:20rem;
@@ -41,21 +42,12 @@
 
 
 
-.vertical-line {
-    position: absolute;
-    top: 0%;
-    left: 30%;
-    height: 100%;
-    width: 2px;
-    background-color: rgb(255, 255, 255);
-
-    z-index: -1;
-}
 
 
 
 
-
+/* product card:
+   size & decoration */
 .cover {
     width: 100%;
     height: 100%;
@@ -85,7 +77,7 @@
 
 
 
-/* buttons */
+/* product types */
 
 .product-types-block{
     margin-left: auto;
@@ -113,6 +105,9 @@
 
 
 
+
+
+/* product types buttons: color & size */
 .product-types >li { 
     width: 100%;
     height: 100%;
@@ -124,16 +119,10 @@
 }
 
 
-
-
-
-
-.expand-btn{
-    background-color: aliceblue;
-}
-
-.performances{
-    padding: 5%;
+.type-btn{    
+    color: rgb(255, 123, 0);
+    font-family: 'Permanent Marker', cursive;
+	text-align: center;
 }
 
 
@@ -142,11 +131,8 @@
 
 
 
-
-/*  grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
-    grid-gap: 1rem 0.5rem;  */
-
-
+/* homepage: main content */
+/* 1x2 grid  */
 .main-container{
     height:100%;
     width:100%;
@@ -165,7 +151,7 @@
 }
 
 
-
+/* 1x2 interior grid */
 .column {
   padding: 5%;
   display: grid;
@@ -194,6 +180,7 @@
     box-sizing: border-box;
 }
 
+/* 2 x 2 product catergory grid */
 .two_by_two{
     display: grid; 
     grid-auto-columns: 1fr; 
@@ -202,9 +189,8 @@
     gap: 1em 1.5em; 
 }
 
-
-
-
+/* album description layout:
+    album name, artist, price */
 .album-text{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
@@ -213,7 +199,10 @@
 }
 
 
-  /* CD + LP */
+
+
+
+  /* CD + LP format tags */
 .tag-wrap {
     display: grid; 
     grid-template-columns: repeat(10,1fr);
@@ -223,10 +212,6 @@
     padding-top: 0.3em; 
     padding-bottom: 0.3em; 
     position: static;
-    /* grid-row: 1;
-    padding-top: 20%;
-    z-index: 10; */
-
     align-content: center;
 
 }
@@ -243,45 +228,7 @@
 
 
 
-
-
-#hiring{
-    display: grid;
-    /* grid-template-columns: fit-content(100px) fit-content(100px) 1fr; */
-    padding-top: 2em;
-    padding-bottom: 12em;
-    padding-left: 3.5em;
-    padding-right: 3.5em;
-
-    /* padding-left: 3.5em;
-    padding-right: 3.5em;
-    margin-left: auto;
-    margin-right: auto; */
-    position: static;
-}
-
-.text-box:before{
-    content:"";
-    position: absolute;
-    width: 220px;
-    height: 140px;
-    margin: auto;
-    z-index: 1;
-    background-color: aliceblue;
-    opacity: 0.3;
-    border-radius: 1em;
-}
-
-.hiring-text{
-    margin-left: 1em;
-    margin-right: 1em;
-    margin-top: 1em;
-    margin-bottom: 1em;
-}
-
-
-
-
+/* performances layout */
 .one-by-four{
     display: grid;
     grid-template-columns: 1fr; 

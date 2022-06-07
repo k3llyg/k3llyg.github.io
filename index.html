@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resident Music</title>
     <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" href="./homepage.css">
+    <link rel="stylesheet" href="./index.css">
     <script src = "nav.js" async></script>
 </head>
 
@@ -19,7 +19,7 @@
     <header>
         <div class="header wrap">
             <div id="menu-btn">
-                <svg xmlns="http://www.w3.org/2000/svg" width="25.436" height="22.051" viewBox="0 0 25.436 22.051">
+                <svg svg  xmlns="http://www.w3.org/2000/svg" width="25.436" height="22.051" viewBox="0 0 25.436 22.051">
                     <g id="Component_3_6" data-name="Component 3 – 6" transform="translate(2 2)">
                       <line id="Line_6" data-name="Line 6" x2="21.436" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="4"/>
                       <line id="Line_7" data-name="Line 7" x2="21.436" transform="translate(0 9.026)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="4"/>
@@ -29,13 +29,13 @@
             </div>
             
             <button id="cart-btn">
-                <svg xmlns="http://www.w3.org/2000/svg" width="27.343" height="24.661" viewBox="0 0 27.343 24.661">
+                <svg svg  xmlns="http://www.w3.org/2000/svg" width="27.343" height="24.661" viewBox="0 0 27.343 24.661">
                     <path id="ic_shopping_basket_24px" d="M21.147,11.089,15.7,2.566a1.217,1.217,0,0,0-1.032-.546,1.2,1.2,0,0,0-1.032.559L8.2,11.089H2.243A1.276,1.276,0,0,0,1,12.389a1.14,1.14,0,0,0,.05.351L4.207,24.784a2.492,2.492,0,0,0,2.386,1.9H22.75a2.517,2.517,0,0,0,2.4-1.9L28.306,12.74l.037-.351a1.276,1.276,0,0,0-1.243-1.3Zm-10.2,0,3.729-5.717L18.4,11.089Zm3.729,10.395a2.6,2.6,0,1,1,2.486-2.6A2.552,2.552,0,0,1,14.672,21.484Z" transform="translate(-1 -2.02)" fill="#fff"/>
                   </svg>                          
             </button>
 
 
-            <a href="homepage.html">
+            <a href="index.html">
                 <h1 id="logo">RESIDENT </h1>
                 </a>                   
 
@@ -60,38 +60,40 @@
     </header>
 
 
-
+    <!-- hidden nav -->
     <nav id="nav" class="">
         <a id="close-nav" href="#">
-            <svg xmlns="http://www.w3.org/2000/svg" width="25.545" height="25.545" viewBox="0 0 25.545 25.545">
+            <svg svg  xmlns="http://www.w3.org/2000/svg" width="25.545" height="25.545" viewBox="0 0 25.545 25.545">
   <path id="Icon_metro-cross" data-name="Icon metro-cross" d="M27.882,22.45h0L20.133,14.7l7.749-7.749h0a.8.8,0,0,0,0-1.129L24.221,2.161a.8.8,0,0,0-1.129,0h0L15.343,9.911,7.594,2.161h0a.8.8,0,0,0-1.129,0L2.8,5.822a.8.8,0,0,0,0,1.129h0L10.553,14.7,2.8,22.45h0a.8.8,0,0,0,0,1.129l3.661,3.661a.8.8,0,0,0,1.129,0h0l7.749-7.749,7.749,7.749h0a.8.8,0,0,0,1.129,0l3.661-3.661a.8.8,0,0,0,0-1.129Z" transform="translate(-2.571 -1.928)" fill="#fff"/>
 </svg>
         </a>
         <div id="nav-list">
             <ul>
                 <li class = "nav-item" >
-                    <a href="homepage.html">HOME</a>
+                    <a class = "nav-link" href="index.html">HOME</a>
                 </li>
                 <li class = "nav-item">
-                    <a href="shop.html">SHOP</a>
+                    <a class = "nav-link" href="shop.html">SHOP</a>
                 </li>
                 <li class = "nav-item">
-                    <a href="#">CONTACT</a>
+                    <a class = "nav-link" href="#">CONTACT</a>
                 </li>
                 <li class = "nav-item">
-                    <a href="#">FQA</a>
+                    <a class = "nav-link" href="#">FQA</a>
                 </li>
             </ul>
         </div>
         <p class="line"></p>
     </nav>
-    
 
+
+
+    <!-- hidden cart -->
     <div id = "cart">
         <div id = "cart-show">
         <div class = "cart-wrap">
-            <a id="close-cart" href= "homepage.html" class = "btn">
-                <svg xmlns="http://www.w3.org/2000/svg" width="25.545" height="25.545" viewBox="0 0 25.545 25.545"
+            <a id="close-cart" href= "product.html" class = "btn">
+                <svg svg  xmlns="http://www.w3.org/2000/svg" width="25.545" height="25.545" viewBox="0 0 25.545 25.545"
                 class = "cross" onClick="window.location = some/page.php">
                     <path id="Icon_metro-cross" data-name="Icon metro-cross" d="M27.882,22.45h0L20.133,14.7l7.749-7.749h0a.8.8,0,0,0,0-1.129L24.221,2.161a.8.8,0,0,0-1.129,0h0L15.343,9.911,7.594,2.161h0a.8.8,0,0,0-1.129,0L2.8,5.822a.8.8,0,0,0,0,1.129h0L10.553,14.7,2.8,22.45h0a.8.8,0,0,0,0,1.129l3.661,3.661a.8.8,0,0,0,1.129,0h0l7.749-7.749,7.749,7.749h0a.8.8,0,0,0,1.129,0l3.661-3.661a.8.8,0,0,0,0-1.129Z" transform="translate(-2.571 -1.928)" fill="#fff"/>
                 </svg>
@@ -100,7 +102,7 @@
             <h2 class = "page-heading cart-page-heading">Cart</h2> 
 
 
-            <!-- <div id ="cart-info" class = "cart-wrap-layout">
+            <div id ="cart-info" class = "cart-wrap-layout">
                 <div class = "product-choice-wrap">
                     <div class = "product-choice  white-border" >
 
@@ -109,7 +111,7 @@
                                 <div class = "cover-trigger-product-page" >
                                     <div class = "album-cover-wrap" >
                                         <a href='product.html' target='_blank'>
-                                            <img src='https://i.postimg.cc/LY7FtV2T/Joy-Division.jpg' alt='Joy-Division' class = "cover"/>
+                                            <img src='album cover/Unknown Pleasure.jpg' alt='Joy-Division' class = "cover"/>
                                         </a>
                                     </div>
                                 </div>
@@ -120,33 +122,34 @@
 
                         <div class="album-description">
                             <h5 class="album-title enlarge"> Unknown Pleasure </h5>
-                            <h6 class = "artist enlarge"> Joy Division </h6>
+                            <h6 class = "artist enlarge"> Joy-Division </h6>
 
                             <div class = "tag-wrap">
                                 <img src="https://svgshare.com/i/hnV.svg" alt="wishlist" class = "format">
                                 <img src="https://svgshare.com/i/hoL.svg" alt="LP" class = "format">
-                                <img src="Icons/CD.svg" alt="CD" class = "format">
+                                <img src="https://svgshare.com/i/hoL.svg" alt="CD" class = "format">
                             </div>
+
+
+                            <!-- price calculation: js not working -->
 
                             <div class = "quantity-price center-grid-no-padding">
                                 <div class = "quantity-wrap">
                                 <div class = "quantity center-grid white-border">
 
-                                    
-
-                                    <button id = "add">
+                                    <i id = "add">
                                     <svg class = "icon-padding cover-icon" xmlns="http://www.w3.org/2000/svg" width="20.755" height="4.448" viewBox="0 0 20.755 4.448">
                                         <path id="Icon_awesome-minus" data-name="Icon awesome-minus" d="M19.273,14.625H1.483A1.483,1.483,0,0,0,0,16.108V17.59a1.483,1.483,0,0,0,1.483,1.483h17.79a1.483,1.483,0,0,0,1.483-1.483V16.108A1.483,1.483,0,0,0,19.273,14.625Z" transform="translate(0 -14.625)" fill="#fff"/>
                                     </svg>
-                                    </button>
+                                    </i>
 
                                     <input id="quantity-num" type="text" value="1" min="1" oninput="changeInput(this)">
 
-                                    <button id = "reduce">
+                                    <i id = "reduce">
                                     <svg class = "icon-padding cover-icon" xmlns="http://www.w3.org/2000/svg" width="20.927" height="20.927" viewBox="0 0 20.927 20.927">
                                         <path id="Icon_awesome-plus" data-name="Icon awesome-plus" d="M19.432,8.221H12.705V1.495A1.5,1.5,0,0,0,11.211,0H9.716A1.5,1.5,0,0,0,8.221,1.495V8.221H1.495A1.5,1.5,0,0,0,0,9.716v1.495a1.5,1.5,0,0,0,1.495,1.495H8.221v6.726a1.5,1.5,0,0,0,1.495,1.495h1.495a1.5,1.5,0,0,0,1.495-1.495V12.705h6.726a1.5,1.5,0,0,0,1.495-1.495V9.716A1.5,1.5,0,0,0,19.432,8.221Z" transform="translate(20.927) rotate(90)" fill="#fff"/>
                                         </svg>
-                                    </button>
+                                    </i>
 
                                 </div>
                                 </div>
@@ -157,8 +160,8 @@
 
 
                         <button class = "remove-goods btn top-grid">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25.545 25.545"
-                            class = "cross">
+                            <svg svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25.545 25.545"
+                            class = "cross" onClick="window.location = some/page.php">
                                 <path id="Icon_metro-cross" data-name="Icon metro-cross" d="M27.882,22.45h0L20.133,14.7l7.749-7.749h0a.8.8,0,0,0,0-1.129L24.221,2.161a.8.8,0,0,0-1.129,0h0L15.343,9.911,7.594,2.161h0a.8.8,0,0,0-1.129,0L2.8,5.822a.8.8,0,0,0,0,1.129h0L10.553,14.7,2.8,22.45h0a.8.8,0,0,0,0,1.129l3.661,3.661a.8.8,0,0,0,1.129,0h0l7.749-7.749,7.749,7.749h0a.8.8,0,0,0,1.129,0l3.661-3.661a.8.8,0,0,0,0-1.129Z" transform="translate(-2.571 -1.928)" fill="#fff"/>
                             </svg>
                         </button>
@@ -200,7 +203,7 @@
                     <div class = "total enlarge-extreme">
                         <div class = "horizontal-line">
                         </div>
-                    <h3 class = "total-wrap total-price" id="price">
+                    <h3 class = "total-wrap total-price">
                         <span>Total:</span>
                         <span id="total-price">$20.00</span>
                     </h3>
@@ -217,8 +220,11 @@
                     </div>
                 </div>
 
-            </div> -->
+            </div>
 
+             <!-- empty cart: js not working, 
+                should appear when all products in cart
+            are removed -->
 
             <div class="cart-empty">
                 <svg class = "cry-icon" xmlns="http://www.w3.org/2000/svg" width="180.333" height="180.333" viewBox="0 0 241.333 241.333">
@@ -236,11 +242,12 @@
         </div>
 
         </div>
-        </div>
       </div>
 
 
 
+
+<!-- gallery + about us -->
     <div id="gallery">
         <div class = "gallery-wrap">
             <img src = "Artist/Gallery.png" alt = "gallery_img" class = "cover-none black-overlay">
@@ -273,17 +280,10 @@
     </div>
 
 
-
-
-    <!-- sidebar inside maincontainer 1/2 with fixed layout divs -->
-    <div id="sidebar">
-    </div>
-
-
+<!-- product catergory:  -->
     <div class="main-container">
 
         <div class="column">
-            <!-- <code> &lt; main container/ &gt;</code> -->
             <section class="album-section-block">  
                 <h3 class="subheading">new releases</h3>
                 <ul class = "two_by_two">
@@ -337,7 +337,7 @@
                     <li class="product-card" >
                         <a href ="" title ="album-name">
                             <a class = "album-cover-wrap" href='product.html'>
-                                    <img src="https://i.postimg.cc/LY7FtV2T/Joy-Division.jpg" alt="An Awesome Wave" class = "cover">
+                                    <img src="album cover/Unknown Pleasure.jpg" alt="An Awesome Wave" class = "cover">
                             </a>
                         </a>
                             <div class="album-text">
@@ -350,16 +350,16 @@
                                 <img src="https://svgshare.com/i/hnV.svg" alt="wishlist" class = "format">
                                 <img src="https://svgshare.com/i/hoL.svg" alt="LP" class = "format">
                                 <img src="Icons/CD.svg" alt="CD" class = "format">
-                                <a class = "btn add-to-cart-shop shop-now" href = "homepage-empty-cart.html">
-                                    <img id = "add-cart" src="https://svgshare.com/i/hnz.svg">
-                                </a>
+                                <button id = "add-cart" class = "btn add-to-cart-shop shop-now">
+                                    <img src="https://svgshare.com/i/hnz.svg">
+                                </button>
                             </div>                            
                     </li>
 
                     <li class="product-card" >
                         <a href ="" title ="album-name">
                             <a class = "album-cover-wrap" >
-                                    <img src="album cover/alt-j.jpg" alt="Igor" class = "cover">
+                                    <img src="album cover/alt-j.jpg" alt="An Awesome Wave" class = "cover">
                             </a>
                         </a>
                             <div class="album-text">
@@ -397,7 +397,7 @@
                             </a>
                         </a>
                             <div class="album-text">
-                                <h5 class="album-title"> Currents </h5>
+                                <h5 class="album-title"> The Slow Rush </h5>
                                 <h6 class = "artist"> Tame Impala </h6>
                                 <h6 class = "price" > $20.00 </h6>
                             </div>
@@ -489,13 +489,6 @@
 
 
 
-            <!-- <section id="hiring"> 
-                <h3 class="subheading">hiring</h3>
-                <div class = "text-box">
-                    <h6 class = "hiring-text"> hiring info</h6>
-                </div>
-            </section> -->
-            
 
             <section class = "product-types-block">
                 <h3 class="subheading2">product types</h3>
@@ -585,11 +578,11 @@
 
                     <li class="product-card" >
                         <a href ="" title ="album-name">
-                            <a class = "album-cover-wrap" >
+                            <a class = "album-cover-wrap" href = "product2.html">
                                     <img src="album cover/lil peep.jpg" alt="Igor" class = "cover">
                             </a>
                         </a>
-                            <div class="album-text" href = "product2.html">
+                            <div class="album-text">
                                 <h5 class="album-title"> Hellboy </h5>
                                 <h6 class = "artist"> Lil Peep </h6>
                                 <h6 class = "price" > $20.00 </h6>
@@ -641,6 +634,7 @@
         </div>
     
     </div>
+
     <section>
 
     </section>

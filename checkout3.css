@@ -1,4 +1,4 @@
-/* body */
+/* layout */
 .checkout{
     background: rgb(0, 0, 0);
     background-repeat: no-repeat;
@@ -14,12 +14,6 @@
     grid-template-rows: 15% 25%;
 }
 
-.checkout-heading{
-	padding-top: 2%;
-    padding-left: 1%;
-    padding-bottom: 3%;
-}
-
 
 .center{
     box-sizing: content-box;
@@ -28,6 +22,35 @@
     margin-right: auto;
     padding-left: var(--spacing-sm);
     padding-right: var(--spacing-sm);
+}
+
+
+
+.form{
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 0%;
+    justify-items: center;
+    flex-direction: column;
+    font-size: 200%;
+}
+
+.form{
+    width: auto;
+    height: 150%;
+}
+
+
+/* headings */
+.checkout-heading{
+	padding-top: 2%;
+    padding-left: 1%;
+    padding-bottom: 3%;
+}
+
+.heading-shipping{
+    padding-left: 15%;
+    padding-bottom: 4%;
 }
 
 
@@ -68,26 +91,7 @@
 
 
 
-/* layout */
 
-.form{
-    display: flex;
-    flex-wrap: nowrap;
-    padding-top: 0%;
-    justify-items: center;
-    flex-direction: column;
-    font-size: 200%;
-}
-
-.form{
-    width: auto;
-    height: 150%;
-}
-
-.heading-shipping{
-    padding-left: 15%;
-    padding-bottom: 4%;
-}
 
 /* steps */
 

@@ -1,3 +1,4 @@
+/* layout */
 .checkout{
     background: rgb(0, 0, 0);
     background-repeat: no-repeat;
@@ -36,6 +37,8 @@
     height: 150%;
 }
 
+
+/* steps */
 
 .steps{
     display: inline-flex;
@@ -82,7 +85,9 @@
     height: 3em;
 }
 
-/* btns */
+
+
+/* buttons */
 .btn-wrap{
     display: grid;
     justify-content: end;

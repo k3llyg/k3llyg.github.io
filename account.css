@@ -1,0 +1,124 @@
+/* layout */
+.checkout{
+    background: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display:block;
+}
+
+.shipping-wrap{
+    padding-top: 1%;
+    width: 50%;
+    display: grid;
+    justify-content: center;
+}
+
+
+.center{
+    box-sizing: content-box;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--spacing-sm);
+    padding-right: var(--spacing-sm);
+}
+
+
+
+.form{
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 0%;
+    justify-items: center;
+    flex-direction: column;
+    font-size: 200%;
+}
+
+.form{
+    width: auto;
+    height: 150%;
+}
+
+.form-item{
+    grid-template-rows: 1fr 1fr;
+    padding-bottom: 5%;
+}
+
+.form-heading{
+    font-weight: 300;
+    font-size: 1rem;
+    padding-bottom: 0.5em;
+    font-style: italic;
+}
+
+.form-input{
+    width: 15em;
+    height: 3em;
+}
+
+
+/* headings */
+.checkout-heading{
+	padding-top: 5%;
+    padding-left: 1%;
+    padding-bottom: 3%;
+}
+
+
+/* button */
+.btn-wrap{
+    display: grid;
+    justify-content: end;
+    padding-top: 8%;
+    padding-right: 15%;
+}
+
+.confirm-btn{
+    width: 150%;
+    height: 170%;
+    border-radius: 2em;
+    background: transparent;
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    font-size: 100%;
+}
+
+.confirm-btn:hover{
+    width: 150%;
+    height: 170%;
+    border-radius: 2em;
+    background: transparent;
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #616161;
+    text-align: center;
+}
+
+/* reminder */
+.reminder{
+    padding-top: 15%;
+    padding-right: 2%;
+    text-align: end;
+}
+
+
+/* TABLET & MOBILE */
+@media screen and (max-width: 768px){
+    :root{
+        font-size: 12px;
+    }
+  
+    .checkout-heading{
+        padding-top: 20%;
+        padding-left: 1%;
+        padding-bottom: 3%;
+    }
+
+    .shipping-wrap{
+        padding-top: 8%;
+    }
+
+}
+
+
+

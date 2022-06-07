@@ -60,8 +60,8 @@
 
 
 
-/* product card */
-/* 2x3 vs 2x2 grid */
+/* body content layot */
+/* 2x2 vs 2x3 grid */
 .two_by_two{
     display: grid; 
     grid-auto-columns: 1fr; 
@@ -71,6 +71,7 @@
 }
 
 
+/* album title large */
 .album-text{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
@@ -91,10 +92,6 @@
     align-content: center;
 }
 
-/* .format{
-    padding-top: 0.5em;
-    padding-bottom: 0.3em;
-} */
 
 .artist-album-wrap{
     display: grid;
@@ -122,9 +119,6 @@
     border-radius: 10%;
     border: 2px solid rgb(255, 255, 255);
   }
-
-
-
 
 
 
@@ -177,7 +171,7 @@
 
 
 
-/* genres */
+/* genre tags */
 .genre-wrap{
     box-sizing: border-box;
     display: block;
@@ -200,6 +194,9 @@
     color: white;
     border: 2px solid rgb(255, 255, 255);
 }
+
+
+
 
 /* tracklist */
 
@@ -265,12 +262,7 @@
     justify-content: center;
 }
 
-/* .disc{
-    width: 5em;
-    height:auto;
-    padding-top: 70em;
-    padding-right: 2em;
-} */
+
 
 
 
@@ -288,6 +280,9 @@
 }
 
 
+
+
+/* tablet & mobile*/
 
 @media screen and (max-width: 768px){
     :root{
@@ -354,12 +349,6 @@
     .wishlist{
         padding-bottom: 2%;
     }
-
-
-
-
-
-
 
 
 

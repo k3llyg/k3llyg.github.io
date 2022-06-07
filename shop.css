@@ -38,13 +38,16 @@
 
 
 
+
 /* hide filter - js not working*/
 .filter-show{
     display: none;
 }
 
 
-/* filter btn */
+
+
+/* filter button */
 .btn-wrap{
     padding-bottom: 5%;
 }
@@ -65,7 +68,9 @@
     border: none;
 }
 
-/* filter */
+
+
+/* filter function*/
 .filter-wrap-color{
     background-color: black;
     padding-top: 2%;
@@ -90,6 +95,11 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 5%;
 }
+
+
+
+
+/* genre tags */
 
 .genre-btn-wrap{
     display: inline-flex;
@@ -139,7 +149,9 @@
 
 
 
-/* pagnation */
+
+
+/* pagnation tool */
 
 .pagnation{
     display: grid;
@@ -209,6 +221,9 @@
 
 
 
+
+  /* desktop */
+
   @media screen and (max-width: 900px){
     :root{
         font-size: 15px;
@@ -224,7 +239,7 @@
 
 
 
-
+/* tablet & mobile*/
 @media screen and (max-width: 768px){
     :root{
         font-size: 11px;

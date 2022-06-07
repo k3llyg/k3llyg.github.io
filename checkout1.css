@@ -1,3 +1,4 @@
+/* layout */
 .checkout{
     background: rgb(0, 0, 0);
     background-repeat: no-repeat;
@@ -77,10 +78,8 @@
     font-style: italic;
 }
 
-/* .form-input-short{
-    width:80%;
-    height: 3em;
-} */
+
+
 
 .form-input{
     width: 110%;
@@ -88,7 +87,11 @@
     text-align: center;
 }
 
-/* btns */
+
+
+
+
+/* buttons */
 .btn-wrap{
     display: grid;
     justify-content: end;
