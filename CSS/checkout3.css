@@ -239,6 +239,7 @@
         padding-right: 20%;
     }
 
+
     .checkout-layout{
         padding-right: 60%;
         grid-template-columns: 1fr;
@@ -274,6 +275,7 @@
     .steps{
         justify-content: center;
     }
+
 }
 
 
