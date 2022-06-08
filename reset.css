@@ -411,6 +411,12 @@ a {
 	font-style: italic;
 }
 
+/* input */
+.form-input{
+    font-style: italic;
+    font-weight: 800;
+    color: #616161;
+}
 
 
 /* text */
