@@ -220,7 +220,14 @@
     text-align: center;
 }
 
+@media screen and (max-width: 1023px){
+    :root{
+        font-size: 10px;
+    }
 
+
+
+}
 
 
 @media screen and (max-width: 768px){
